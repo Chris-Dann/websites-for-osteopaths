@@ -1,0 +1,507 @@
+.home-splash {
+    height: calc(100vh - 100px - 220px);
+    min-height: 600px;
+    background: url('images/background.jpg');
+    background: url('images/splash-2.jpg');
+    background-size: cover;
+    background-position: 0% 10%;
+    position: relative;
+    padding: 0;
+
+    .contentbox {
+        position: relative;
+        width: 1200px;
+        margin: 0px auto;
+        height: 100%;
+        overflow: hidden;
+
+        img {
+            display: none;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            width: auto;
+            height: 680px;
+        }
+
+        .innerbox {
+            width: 800px;
+            position: absolute;
+            right: 20px;
+            top: 150px;
+
+            h1 {
+                font-weight: 400;
+                font-size: 3.2rem;
+                margin-bottom: 15px;
+                color: #233852;
+            }
+
+            a.button {
+                font-size: 1.1rem;
+                border-width: 2px;
+                box-shadow: 3px 3px 4px #00000055;
+                padding: 13px 20px;
+            }
+        }
+    }
+
+    .ioo {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 110px;
+        height: auto;
+    }
+}
+
+.home-featureboxes {
+    display: flex;
+    justify-content: stretch;
+    padding: 0;
+    /*position: sticky;
+    top: 0;*/
+
+    .featurebox {
+        width: 34%;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .opacitylayer {
+            background-color: black;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity .5s;
+        }
+
+        .freesticker {
+            width: 70px;
+            height: auto;
+            position: absolute;
+            top: -35px;
+            left: 26px;
+        }
+
+        .freesticker-int {
+            width: 60px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 50px;
+
+            i {
+                font-size: 50px;
+                color: #0cb39c;
+                margin-right: 15px;
+            }
+
+            .textbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+
+                h2 {
+                    color: #eee;
+                    color: var(--off-white);
+                    font-size: 1.4rem;
+                    transition: color .5s;
+                    margin: 0;
+                    text-align: left;
+                    line-height: 1.2;
+                }
+            }
+
+            p.button-wrap {
+                line-height: 0.7;
+                
+                a.button {
+                    transform: translateY(10px);
+                    transition: transform .5s;
+                    box-shadow: none;
+                    font-size: 1rem;
+                    padding: 13px 20px;
+                }
+                
+            }
+        }
+
+        &.featurebox-1 {
+            background: url(images/signpost.jpg);
+            background-size: cover;
+            background: var(--highlight-color-1);
+        }
+
+        &.featurebox-2 {
+            background: url(images/dialogue.jpg);
+            background-size: cover;
+            background: var(--highlight-color-2);
+        }
+
+        &.featurebox-3 {
+            background: url(images/website.jpg);
+            background-size: cover;
+            background: var(--highlight-color-1);
+        }
+
+        &:hover {
+            .opacitylayer {
+                opacity: .5;
+                transition: opacity .5s;
+            }
+            
+            .content {
+                p.button-wrap {
+                    line-height: 0.7;
+    
+                    a.button {
+                        transform: translateY(0);
+                        transition: transform .5s, color .5s, background-color .5s;
+                    }
+                }
+            }
+            
+
+            .textbox {
+                h2 {
+                    color: white;
+                    transition: color .5s;
+                }
+            }
+        }
+    }
+}
+
+.home-section-1 {
+
+    padding: 5rem 0 6rem;
+    .rb-container {
+        .rowbox {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .text {
+                width: 65%;
+                
+                h3 {
+                    &.first {
+                        font-size: 2.4rem;
+                        font-weight: 300;
+                    }
+                }
+
+                p.indent {
+                    text-indent: 150px;
+                }
+            }
+
+            .image {
+                width: 30%;
+                background: url('images/curly-glasses-spine.jpg');
+                background-size: cover;
+            }
+        }
+    }
+}
+
+
+
+.home-section-4 {
+    padding-top: 0;
+    padding-bottom: 5rem;
+
+    .rb-container {
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row-reverse;
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 0 0 30px;
+            }
+
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+
+        .contentbox {
+            display: flex;
+            justify-content: space-between;
+
+            .website-pic {
+                width: 31%;
+                border: 1px solid #ccc;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .website-pic-2 {
+                width: 31%;
+                border: 1px solid #ccc;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .website-pic-3 {
+                width: 31%;
+                border: 1px solid #ccc;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+        .blurbbox {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-top: 20px;
+
+            .text {
+                width: 800px;
+            }
+
+            .cta {
+                width: 31%;
+            }
+        }
+    }
+}
+
+.home-digital-marketing {
+    background: var(--highlight-color-2);
+    margin-top: 1rem;
+
+    .rb-container {
+        position: relative;
+
+        .spaceship {
+            position: absolute;
+            left: 30px;
+            top: -150px;
+            height: 800px;
+            width: auto;
+            transform: rotate(30deg);
+            z-index: 10;
+        }
+
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row-reverse;
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 0 0 30px;
+                color: var(--off-white);
+            }
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+
+        .innerbox {
+            display: flex;
+            justify-content: space-between;
+
+            .left {
+                width: 40%;
+            }
+
+            .right {
+                width: 60%;
+
+                .iconbox {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 40px;
+
+                    li {
+                        color: var(--off-white);
+                        padding-left: 10px;
+                        margin-bottom: 15px;
+
+                        i {
+                            font-size: 30px;
+                            color: var(--off-white);
+                        }
+                    }
+
+                    .left {
+                        width: 50%;
+                    }
+
+                    .right {
+                        width: 50%;
+                    }
+                }
+
+                p {
+                    color: var(--off-white);
+                }
+
+                h3 {
+                    color: var(--off-white);
+                }
+            }
+        }
+    }
+}
+
+.home-free-guides {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+
+    .rb-container {
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row;
+            align-items: center;
+            
+            img {
+                width: 70px;
+                height: auto;
+                margin-left: 20px;
+            }
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 30px 0 14px;
+
+            }
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+
+        .contentbox {
+            display: flex;
+            justify-content: space-between;
+
+            .guides {
+                width: 56%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .guide {
+                    width: 33%;
+                    height: 270px;
+                    margin-bottom: 30px;
+                    transform: scale(.9);
+                    transition: transform .5s;
+                    position: relative;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                    /*
+                    a.button {
+                        position: absolute;
+                        bottom: 110px;
+                        left: 41px;
+                        transform: translateY(40px);
+                        opacity: 0;
+                        transition: transform .5s, opacity .5s;
+                    }
+                    */
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: transform .5s;
+                        /*
+                        a.button {
+                            transform: translateY(0);
+                            opacity: 1;
+                            transition: transform .5s, opacity .5s;
+                        }
+                        */
+                    }
+                }
+
+                .guide1 {
+                    background: url('images/guides-marketing-fundamentals.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .guide2 {
+                    background: url('images/guides-copywriting.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .guide3 {
+                    background: url('images/guides-websites.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .guide4 {
+                    background: url('images/guides-google.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .guide5 {
+                    background: url('images/guides-blogging.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .guide6 {
+                    background: url('images/guides-graphic-design.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+
+            .text {
+                width: 40%;
+            }
+        }
+    }
+}
+

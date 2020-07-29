@@ -1,0 +1,95 @@
+.rb-responsive-google-map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    width: 100%;
+}
+.rb-responsive-google-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.contact-upperbox {
+    .rb-container {
+        display: flex;
+        justify-content: space-between;
+
+        .map {
+            width: 68%;
+        }
+
+        .deets {
+            width: 28%;
+            background-color: var(--highlight-color-1);
+            border-radius: 20px;
+            padding: 2rem;
+
+            h3, p {
+                color: var(--off-white);
+                text-align: left;
+                margin-bottom: 0;
+            }
+
+            h3 {
+                margin-bottom: 30px;
+            }
+
+            i {
+                font-size: 30px;
+                color: var(--action-color-2);
+                width: 40px;
+                margin-right: 20px;
+            }
+
+            .innerbox {
+                width: 100%;
+                
+                .line {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+
+.contact-lowerbox {
+    .rb-container {
+        display: flex;
+        justify-content: space-between;
+
+        .infobox {
+            width: 28%;
+            background-color: var(--highlight-color-2);
+            border-radius: 20px;
+            position: relative;
+            padding: 6rem 2rem 2rem 2rem;
+
+            .photo {
+                position: absolute;
+                border: 2px solid var(--action-color-2);
+                border-radius: 100px;
+                width: 120px;
+                height: 120px;
+                background: url(images/chris.jpg);
+                background-size: cover;
+                left: 50%;
+                top: 0;
+                transform: translate(-50%, -50%);
+            }
+            
+            p {
+                color: var(--off-white);
+            }
+        }
+
+        .form {
+            width: 68%;
+        }
+    }
+}

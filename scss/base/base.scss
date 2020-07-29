@@ -1,0 +1,271 @@
+.pageheader {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        margin: 0;
+        text-align: left;
+    }
+
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.websites-headine {
+
+    background-color: blue;
+    
+    .rb-container {
+        .innerbox {
+            display: flex;
+            justify-content: space-between;
+
+            .text {
+                width: 60%;
+            }
+
+            .image {
+                width: 37%;
+
+                .imagebox {
+                    background: url(images/curly-glasses-spine.jpg);
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+
+.free-web-review {
+    .rb-container {
+        position: relative;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p.icons {
+            color: var(--highlight-color-1);
+            font-size: 20px;
+            margin: 0;
+            margin-bottom: 50px;
+             i {
+                 padding: 0 13px;
+             }
+        }
+
+        .columnsbox {
+            display: flex;
+            justify-content: space-between;
+
+            .image {
+                background: url('images/lady-office-laptop.jpg');
+                background-size: cover;
+                background-position: center;
+                width: 40%;
+                background-repeat: no-repeat;
+                margin-right: 50px;
+                flex: none;
+            }
+
+            .text {
+                width: 55%;
+
+                p {
+                    
+                }
+
+                .wpcf7-form {
+
+                    p {
+                        color: #666;
+                        margin-bottom: 0;
+                    }
+                    input:not([type=submit]), textarea {
+                        width: 100%;
+                        line-height: 100%;
+                        margin-bottom: .6rem;
+                        color: #555;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 16px;
+                        background-color: var(--off-white);
+                    }
+                
+                    textarea {
+                        border: 1px solid #ddd;
+                    }
+
+                    input[type=submit] {
+                        @mixin button;
+                        display: block;
+                        margin-left: auto;
+                        margin-top: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.free-web-review--dark {
+    background-color: var(--highlight-color-1);
+    padding: 100px 0;
+
+    .rb-container {
+        position: relative;
+
+        /*
+        .freesticker {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 70px;
+            height: auto;
+        }
+        */
+
+        h2 {
+            text-align: center;
+            color: var(--off-white);
+            margin-bottom: 10px;
+        }
+
+        p.icons {
+            color: var(--off-white);
+            font-size: 20px;
+            margin: 0;
+            margin-bottom: 50px;
+             i {
+                 padding: 0 13px;
+             }
+        }
+
+        .columnsbox {
+            display: flex;
+            justify-content: space-between;
+
+            .image {
+                background: url('images/lady-office-laptop.jpg');
+                background-size: cover;
+                background-position: center;
+                width: 40%;
+                background-repeat: no-repeat;
+                margin-right: 50px;
+                flex: none;
+            }
+
+            .text {
+                width: 55%;
+
+                p {
+                    color: var(--off-white);
+                }
+
+                .wpcf7-form {
+
+                    p {
+                        color: var(--off-white);
+                        margin-bottom: 0;
+                    }
+                    input:not([type=submit]), textarea {
+                        width: 100%;
+                        line-height: 100%;
+                        margin-bottom: .6rem;
+                        color: #555;
+                        padding: 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 16px;
+                        background-color: var(--off-white);
+                    }
+                
+                    textarea {
+                        border: 1px solid #ddd;
+                    }
+
+                    input[type=submit] {
+                        @mixin button;
+                        display: block;
+                        margin-left: auto;
+                        margin-top: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mailing-list {
+    padding-top: 3rem;
+
+    .rb-container {
+
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row-reverse;
+            align-items: center;
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 0 0 30px;
+
+            }
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+
+        .innerbox {
+            display: flex;
+            justify-content: space-between;
+
+            .text {
+                width: 64%;
+
+                #mc_embed_signup {
+
+                    form {
+                        padding-left: 0;
+
+                        label {
+                            color: #666;
+                        }
+
+                        input[type="submit"] {
+                            @mixin button;
+                            padding: 0px 20px;
+                        }
+                    }
+                }
+            }
+
+            .image {
+                width: 32%;
+                background: url(images/inbox.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}
+
+.mailing-list--home {
+    .rb-container .headingbox .line {
+        margin-left: 100px;
+    }
+}
+
+.clearfix {
+    clear: both;
+}

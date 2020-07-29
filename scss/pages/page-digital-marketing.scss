@@ -1,0 +1,448 @@
+.dm-headline {
+
+    .rb-container {
+        .innerbox {
+            display: flex;
+            justify-content: space-between;
+
+            .text {
+                width: 60%;
+
+                h2 {
+                    text-align: left;
+                    line-height: 1.5;
+                    font-size: 1.4rem;
+                    margin-bottom: 28px;
+                }
+            }
+
+            .image {
+                width: 37%;
+
+                .imagebox {
+                    height: 100%;
+                    width: 100%;
+                    background: url(images/successlady.jpg);
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+
+.marketing-different {
+    background: var(--highlight-color-1);
+    padding: 100px 0;
+
+    .rb-container {
+        
+        h2, h3, p {
+            color: var(--off-white);
+        }
+
+        h2.head {
+            margin-bottom: 1rem;
+            margin-bottom: 70px;
+        }
+
+        h2.sub {
+            font-size: 1.2rem;
+            margin-bottom: 70px;
+        }
+
+        .topbox {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+            .image {
+                width: 39%;
+                display: flex;
+                flex-direction: column;
+                justify-content: stretch;
+
+                .imagebox {
+                    width: 100%;
+                    height: 100%;
+                    background: url(images/bigshoes.jpg);
+                    background-size: cover;
+                }
+            }
+
+            .text {
+                width: 56%;
+            }
+        }
+
+        .bottombox {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            .image {
+                width: 39%;
+                display: flex;
+                flex-direction: column;
+                justify-content: stretch;
+
+                .imagebox {
+                    width: 100%;
+                    height: 100%;
+                    background: url(images/handshake.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+
+            .text {
+                width: 55%;
+            }
+        }
+    }
+}
+
+/*
+.dm-strategy {
+    background: var(--highlight-color-1);
+
+    .rb-container {
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row;
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 30px 0 0;
+                color: var(--off-white);
+            }
+
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--action-color-2);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+
+        .innerbox {
+            display: flex;
+            justify-content: space-between;
+
+            .icons {
+                width: 54%;
+
+                h3 {
+                    color: var(--off-white);
+
+                    i {
+                        font-size: 35px;
+                        margin-right: 15px;
+                    }
+
+                }
+                
+                p {
+                    color: var(--off-white);
+                }
+            }
+
+            .text {
+                width: 39%;
+
+                .imagebox {
+                    width: 100%;
+                    height: 100%;
+                    background: url(images/physio-theme.png);
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+*/
+
+.dm-services {
+
+    padding-top: 5rem;
+    padding-bottom: 0;
+
+    .rb-container {
+
+        h2 {
+            margin-bottom: .5rem;
+        }
+
+        p.subtitle {
+            max-width: 800px;
+            font-style: italic;
+            margin: 0px auto 50px auto;
+            text-align: center;
+        }
+
+        p.sub {
+            padding: 2rem;
+            max-width: 800px;
+            background: var(--highlight-color-1);
+            border-radius: 20px;
+            color: var(--off-white);
+            margin: 0px auto 4rem auto;
+        }
+
+        .servicesbox {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .servicebox {
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                i {
+                    font-size: 40px;
+                    color: var(--highlight-color-1);
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+.dm-guides {
+
+    .headingbox {
+        display: flex;
+        margin-bottom: 3rem;
+        flex-direction: row;
+
+        h2 {
+            display: inline-block;
+            flex: none;
+            margin: 0 30px 0 0;
+        }
+
+        .line {
+            display: inline-block;
+            border-bottom: 2px solid var(--header-line);
+            width: 100%;
+            transform: translateY(-40%);
+        }
+    }
+    
+    .innerbox {
+        display: flex;
+
+        .guide-picture {
+            width: 250px;
+            height: 340px;
+            flex: none;
+            margin-right: 50px;
+
+            .imagebox {
+                background: url(images/guides-google.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+.marketing-prices {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .rb-container {
+
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row-reverse;
+    
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 0 0 30px;
+            }
+    
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+
+        .innerbox {
+            display: flex;
+            justify-content: space-between;
+
+            .column {
+                width: 31%;
+
+                &.column1 {
+                    background: var(--highlight-color-1);
+                    border-radius: 20px;
+                    padding: 2rem;
+                }
+
+                &.column2 {
+                    background: var(--highlight-color-2);
+                    border-radius: 20px;
+                    padding: 2rem;
+                }
+
+                h3.title {
+                    text-align: center;
+                    color: var(--off-white);
+                    font-size: 1.6rem;
+                    margin-bottom: 30px;
+                }
+                
+                p.from {
+                    font-size: .9rem;
+                    color: var(--off-white);
+                    text-align: center;
+                    margin-bottom: 0;
+                }
+
+                h3.price {
+                    font-size: 3.5rem;
+                    font-weight: 300;
+                    text-align: center;
+                    color: var(--off-white);
+
+
+                    .permonth {
+                        font-size: .9rem;
+                    }
+                }
+
+                p.list {
+                    color: var(--off-white);
+                    text-align: center;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+/*
+.websites-pricing {
+
+    .rb-container {
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row;
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 30px 0 0;
+            }
+
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+
+        .pricingbox {
+            display: flex;
+            justify-content: space-between;
+
+            .pricebox {
+                width: 32%;
+                border-radius: 20px;
+                padding: 50px;
+
+                &.pricebox1 {
+                    background: var(--highlight-color-2);
+                }
+                &.pricebox2 {
+                    background: var(--highlight-color-1);
+                }
+                &.pricebox3 {
+                    background: var(--highlight-color-2);
+                }
+
+                h3 {
+                    text-align: center;
+                    color: var(--off-white);
+
+                    &.package {
+                        font-size: 1.6rem;
+                    }
+
+                    &.price {
+                        font-size: 3.5rem;
+                        font-weight: 300;
+                    }
+                }
+
+                p.list {
+                    text-align: center;
+                    color: var(--off-white);
+                }
+            }
+        }
+    }
+}
+
+.website-faq {
+    .rb-container {
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row-reverse;
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 0 0 30px;
+            }
+
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+    }
+}
+
+.website-free-review {
+    .rb-container {
+        .headingbox {
+            display: flex;
+            margin-bottom: 3rem;
+            flex-direction: row;
+
+            h2 {
+                display: inline-block;
+                flex: none;
+                margin: 0 30px 0 0;
+            }
+
+            .line {
+                display: inline-block;
+                border-bottom: 2px solid var(--header-line);
+                width: 100%;
+                transform: translateY(-40%);
+            }
+        }
+    }
+}
+*/
