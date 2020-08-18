@@ -16,13 +16,13 @@
         <div class="innerbox">
             <div class="blurbbox">
                 <h3>It's all Here!</h3>
-                <p>Our free guides are jam-packed with essential marketing information, from the theory on how to market your practice through to essential skills and tips on doing it right.</p>
+                <p>Six free guides jam-packed with essential marketing information, from the theory on how to market your practice through to essential skills and tips on doing it right.</p>
                 <h3>Just for Osteopaths</h3>
                 <p>The guides are written <strong>specifically for osteopaths</strong> and the specific challenges of marketing an osteopathic practice. Follow our fictional osteopath, Beth, as we look at marketing angles, write effective sales messages and build a website and adverts for her practice.</p>
                 <h3>A Complete Course</h3>
                 <p>You can follow the guides in order as a marketing course or just dip into whichever one interests you. Each guide follows on from the last and refers to concepts covered in the previous guides, but can also be read individually.</p>
                 <h3>Feedback</h3>
-                <p>Did you find the guides useful? Please let us know as we'd love to know that it's helped, or if you have any comments, suggestions or questions, then please <a href="#">contact us</a>!</p>
+                <p>Did you find the guides useful? Please let me know as I'd love to know that it's helped, or if you have any comments, suggestions or questions, then please <a href="#">contact me</a>!</p>
             </div>
             <div class="guidesbox">
                 <div class="guidebox guide1">
@@ -31,7 +31,7 @@
                     </div>
                     <div class="text">
                         <h3>Marketing Basics</h3>
-                        <p>Learn the fundamental principles of modern marketing, whether you should specialise and core concepts like the Big Idea.</p>
+                        <p>Learn the fundamental principles of modern marketing and how to approach your marketing strategy.</p>
                         <p class="button-wrap rb-left"><a href="<?php echo get_stylesheet_directory_uri(); ?>/guides/MarketingBasics-WfO.pdf" target="_blank" class="button">Read Now</a></p>
                     </div>
                 </div>

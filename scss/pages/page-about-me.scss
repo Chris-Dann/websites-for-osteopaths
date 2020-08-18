@@ -1,0 +1,41 @@
+.about-me-about-me {
+
+    .rb-container {
+        display: flex;
+        justify-content: space-between;
+        .image {
+            width: 35%;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .text {
+            width: 62%;
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+
+            .image {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 30px;
+
+                img {
+                    width: 100%;
+                    max-width: 400px;
+                    height: auto;
+                }
+            }
+
+            .text {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        padding-top: 1rem;
+    }
+}

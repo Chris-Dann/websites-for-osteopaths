@@ -1,16 +1,16 @@
 .home-splash {
     height: calc(100vh - 100px - 220px);
     min-height: 600px;
-    background: url('images/background.jpg');
     background: url('images/splash-2.jpg');
     background-size: cover;
-    background-position: 0% 10%;
+    background-position: 90% 10%;
     position: relative;
     padding: 0;
 
     .contentbox {
         position: relative;
-        width: 1200px;
+        width: 100%;
+        max-width: 1200px;
         margin: 0px auto;
         height: 100%;
         overflow: hidden;
@@ -35,6 +35,10 @@
                 font-size: 3.2rem;
                 margin-bottom: 15px;
                 color: #233852;
+
+                &.vertical {
+                    display: none;
+                }
             }
 
             a.button {
@@ -45,7 +49,7 @@
             }
         }
     }
-
+    
     .ioo {
         position: absolute;
         bottom: 0px;
@@ -53,6 +57,74 @@
         width: 110px;
         height: auto;
     }
+
+    @media (max-width: 1200px) {
+        
+        .contentbox {
+
+            .innerbox {
+                width: unset;
+                right: 100px;
+
+                h1 {
+                    font-size: 2.5rem;
+                }
+            }
+
+        }
+    }
+
+    @media (max-width: 991px) {
+
+        height: 500px;
+        min-height: unset;
+        
+        .contentbox {
+
+            .innerbox {
+
+                right: 70px;
+                top: 140px;
+
+                h1.horizontal {
+                    /*display: none;*/
+                    font-size: 2rem;
+                }
+                h1.vertical {
+                    /*display: block;*/
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        background: url(images/splash-2-768.jpg);
+        background-position: 90% 10%;
+    }
+
+    @media (max-width: 576px) {
+        background: linear-gradient(#FFFFFF55, #ffffff55), url(images/splash-2-768.jpg);
+        background-position: 100% 0%;
+
+        .contentbox {
+            display: flex;
+            justify-content: center;
+
+            .innerbox {
+                position: relative;
+                right: unset;
+                top: unset;
+                margin-top: 100px;
+
+                h1.horizontal {
+                    margin: 0 20px 30px 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
 }
 
 .home-featureboxes {
@@ -186,6 +258,73 @@
             }
         }
     }
+
+    @media (max-width: 992px) {
+        .featurebox {
+            height: 250px;
+
+            .content {
+
+                .textbox {
+                    flex-direction: column;
+
+                    i {
+                        margin-bottom: 15px;
+                        margin-right: 0;
+                    }
+
+                    h2 {
+                        font-size: 1.2rem;
+                        text-align: center;
+                    }
+                }
+                .button-wrap {
+                    .button {
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: stretch;
+
+        .featurebox {
+            width: 100%;
+            height: 210px;
+
+            .freesticker {
+                top: 25px;
+            }
+
+            .content {
+
+                .textbox {
+                    flex-direction: row;
+
+                    i {
+                        margin-bottom: 0;
+                        margin-right: 20px;
+                    }
+
+                    h2 {
+                        text-align: left;
+                    }
+                }
+
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        .featurebox {
+            .freesticker {
+                display: none;
+            }
+        }
+    }
 }
 
 .home-section-1 {
@@ -209,13 +348,31 @@
 
                 p.indent {
                     text-indent: 150px;
+
+                    @media (max-width: 767px) {
+                        text-indent: 0;
+                    }
                 }
             }
 
             .image {
                 width: 30%;
-                background: url('images/curly-glasses-spine.jpg');
+                background: url('images/go-girl.jpg');
                 background-size: cover;
+                background-position: 50% 50%;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .rb-container {
+            .rowbox {
+                .text {
+                    width: 100%;
+                }
+                .image {
+                    display: none;
+                }
             }
         }
     }
@@ -244,6 +401,19 @@
                 border-bottom: 2px solid var(--header-line);
                 width: 100%;
                 transform: translateY(-40%);
+            }
+
+            @media (max-width: 767px) {
+                display: block;
+
+                h2 {
+                    margin: 0;
+                    text-align: center;
+                }
+
+                .line {
+                    display: none;
+                }
             }
         }
 
@@ -276,6 +446,16 @@
                 img {
                     width: 100%;
                     height: auto;
+                }
+            }
+
+            @media (max-width: 575px) {
+                .website-pic,
+                .website-pic-2 {
+                    width: 49%;
+                }
+                .website-pic-3 {
+                    display: none;
                 }
             }
         }
@@ -312,6 +492,10 @@
             width: auto;
             transform: rotate(30deg);
             z-index: 10;
+
+            @media (max-width: 1023px) {
+                display: none;
+            }
         }
 
         .headingbox {
@@ -330,6 +514,20 @@
                 border-bottom: 2px solid var(--header-line);
                 width: 100%;
                 transform: translateY(-40%);
+            }
+
+            @media (max-width: 767px) {
+                display: block;
+
+                .line {
+                    display: none;
+                }
+
+                h2 {
+                    display: block;
+                    text-align: center;
+                    margin: 0;
+                }
             }
         }
 
@@ -367,6 +565,20 @@
                     .right {
                         width: 50%;
                     }
+
+                    @media (max-width: 575px) {
+                        flex-direction: column;
+
+                        .left,
+                        .right {
+                            width: 100%;
+
+                            ul {
+                                margin-bottom: 0;
+                                margin-top: 0;
+                            }
+                        }
+                    }
                 }
 
                 p {
@@ -377,6 +589,16 @@
                     color: var(--off-white);
                 }
             }
+
+            @media (max-width: 1023px) {
+                > .left {
+                    display: none;
+                }
+
+                .right {
+                    width: 100%;
+                }
+            }
         }
     }
 }
@@ -384,6 +606,10 @@
 .home-free-guides {
     padding-top: 4rem;
     padding-bottom: 5rem;
+
+    @media (max-width: 575px) {
+        padding-bottom: 1rem;
+    }
 
     .rb-container {
         .headingbox {
@@ -410,6 +636,24 @@
                 width: 100%;
                 transform: translateY(-40%);
             }
+
+            @media (max-width: 575px) {
+                display: block;
+
+                h2 {
+                    display: block;
+                    text-align: center;
+                    margin: 0;
+                }
+
+                .line {
+                    display: none;
+                }
+
+                .freesticker {
+                    display: none;
+                }
+            }
         }
 
         .contentbox {
@@ -435,28 +679,10 @@
                         width: 100%;
                         height: 100%;
                     }
-                    
-                    /*
-                    a.button {
-                        position: absolute;
-                        bottom: 110px;
-                        left: 41px;
-                        transform: translateY(40px);
-                        opacity: 0;
-                        transition: transform .5s, opacity .5s;
-                    }
-                    */
 
                     &:hover {
                         transform: scale(1.1);
                         transition: transform .5s;
-                        /*
-                        a.button {
-                            transform: translateY(0);
-                            opacity: 1;
-                            transition: transform .5s, opacity .5s;
-                        }
-                        */
                     }
                 }
 
@@ -500,6 +726,40 @@
 
             .text {
                 width: 40%;
+            }
+
+            @media (max-width: 991px) {
+                .guides {
+                    .guide {
+                        width: 50%;
+                    }
+                }
+            }
+
+            @media (max-width: 767px) {
+                flex-direction: column;
+                .guides {
+                    width: 100%;
+                    .guide {
+                        width: 32%;
+                        height: 240px;
+                    }
+                }
+                .text {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+            }
+
+            @media (max-width: 575px) {
+                .guides {
+                    margin-bottom: 20px;
+
+                    .guide {
+                        width: 50%;
+                        margin-bottom: 0;
+                    }
+                }
             }
         }
     }

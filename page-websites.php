@@ -14,7 +14,7 @@
                 <h2>Gain the Confidence of Patients and Colleagues with a Professional Website for Your Practice</h2>
                 <p>A quality website can be one of the most solid investments you'll ever make for your practice, driving you forward for years to come. A great website will raise your profile, instill confidence in your visitors, and allow you to share your practice online with pride.</p>
                 <h3>Full Support and Hosting</h3>
-                <p>From setting up your email to updating your blog, we offer free unlimited support to all our website clients. With our hosting service we will also host, maintain and back up your website and give you half an hour of developer time a month, so you can make the changes you need whilst staying focused on patients.</p>
+                <p>From setting up your email to updating your blog, I offer free unlimited support to all my website clients. With my hosting service I will also host, maintain and back up your website and give you half an hour of developer time a month, so you can make the changes you need whilst staying focused on patients.</p>
             </div>
             <div class="image">
                 <div class="imagebox"></div>
@@ -26,7 +26,7 @@
 <div class="rb-section-container websites-templates">
     <div class="rb-container">
         <div class="headingbox">
-            <h2>Our Basic Templates</h2>
+            <h2>Example Sites</h2>
             <div class="line"></div>
         </div>
         <div class="templatesbox">
@@ -64,8 +64,8 @@
             <div class="template-nav template-nav--right"><i class="fas fa-chevron-right"></i></div>
         </div>
         <h2>Customisation Options</h2>
-        <p>Unlike many agencies, <strong>we do not use pre-built templates or visual website builders</strong>, all of which can create slow, insecure and difficult-to-edit websites.  We are "real" designers and programmers who code everything ourselves, so you can mix and match ideas from different themes, or <strong>we can custom code anything at all that you want</strong>.</p>
-        <p>If you want to be able to <strong>update your content yourself</strong>, we can build the facility to edit any of the text on your website from your user interface. For bigger tweaks, our hosting service (1 year free with all packages) also includes up to 30 minutes of developer time per month.</p>
+        <p>Unlike many agencies, <strong>I do not use pre-built templates or visual website builders</strong>, all of which can create slow, insecure and difficult-to-edit websites.  I'm a "real" designer and programmer and code everything myself, so you can mix and match ideas from different themes, or <strong>I can custom code anything at all that you want</strong>.</p>
+        <p>If you want to be able to <strong>update your content yourself</strong>, I can build the facility to edit any of the text on your website from your user interface. For bigger tweaks, my hosting service (1 year free with all packages) also includes up to 30 minutes of developer time per month.</p>
     </div>
 </div>
 
@@ -78,33 +78,36 @@
         <div class="pricingbox">
             <div class="pricebox pricebox1">
                 <h3 class="package rbveq rbveq--package">Osteopath Pro</h3>
-                <h3 class="price">£895</h3>
-                <h3 class="pricesub">or 4 payments of £234</h3>
-                <p class="list rbveq rbveq--website-list">Awesome website<br>
+                <h3 class="price">£695</h3>
+                <h3 class="pricesub"></h3>
+                <!--<h3 class="pricesub">or 4 payments of £234</h3>-->
+                <p class="list rbveq rbveq--website-list">Custom Website<br>
                     One year hosting<br>
                     Unlimited Support</p>
-                <p class="button-wrap rb-center"><a href="#" class="button">Contact Us</a></p>
+                <p class="button-wrap rb-center"><a href="#" class="button">Contact Me</a></p>
             </div>
             <div class="pricebox pricebox2">
                 <h3 class="package rbveq rbveq--package">Osteopath Pro<br>+ Marketing</h3>
-                <h3 class="price">£1295</h3>
-                <h3 class="pricesub">or 4 payments of £324</h3>
-                <p class="list rbveq rbveq--website-list">Professional Copywriting<br>
+                <h3 class="price">£995</h3>
+                <h3 class="pricesub"></h3>
+                <!--<h3 class="pricesub">or 4 payments of £324</h3>-->
+                <p class="list rbveq rbveq--website-list">Market Analysis<br>
+                    Professional Copywriting<br>
                     SEO Analysis<br>
                     Targeted on-page SEO
                     Personal Marketing Plan<br>
                     1 Month Marketing Services</p>
-                <p class="button-wrap rb-center"><a href="#" class="button">Contact Us</a></p>
+                <p class="button-wrap rb-center"><a href="#" class="button">Contact Me</a></p>
             </div>
             <div class="pricebox pricebox3">
                 <h3>Osteopath Pro</h3>
-                <p>It starts with a great website. With the Osteopath Pro package, we build you a great, SEO-optimised website based on your images and text, and give you analytics and stuff.</p>
+                <p>It starts with a great website. With the Osteopath Pro package, I design and build you an awesome custom website based on your images and text, set up your analytics and give you a years hosting and support.</p>
                 <h3>Osteopath Pro + Marketing</h3>
-                <p>In this amazing package we do an SEO and marketing analysis to identify with you your core markets and messages, set up your website for them, and then do a month's marketing to get you going. Rocket your practice with this amazing package.</p>
+                <p>The marketing package allows you to really make the most of your website, with a market analysis and strategy, SEO analysis and optimisation, copywriting, and 3 hours marketing time to start driving your practice forward.</p>
             </div>
         </div>
         <h2>Payment Options</h2>
-        <p>Subject to a credit check, we offer all our clients the option to split your investment into <strong>4 equal interest-free monthly payments</strong>. If you're a <strong>recent graduate</strong> (within the last 2 years), you can spread the cost out even further. Speak to us for details!</p>
+        <p>I take a 25% deposit before starting work and the balance on project completion. Subject to credit approval, you can split the final payment into <strong>2 equal interest-free monthly payments</strong>. If you're a <strong>recent graduate</strong> (within the last 2 years), you can spread the cost out even further. Speak to me for details!</p>
     </div>
 </div>
 
@@ -120,12 +123,12 @@
             </div>
             <div class="text">
                 <h3>Managed Hosting for Professionals</h3>
-                <p>You have better things to do than wasting hours administrating your website, so leave it to us! All our website packages come with a year's free hosting, including all maintenance, software updates, backups, security and a guarantee against hacking.</p>
+                <p>You have better things to do than wasting hours administrating your website, so leave it to me! All my websites come with a year's free hosting, including all maintenance, software updates, backups, security and a guarantee against hacking.</p>
                 <h3>Developer Time Included</h3>
-                <p>As long as you're using our hosting, we offer unlimited free support on any aspect of using your website. Also included is the option of up to 30 minutes developer time per month, allowing you to make changes or add features to your site without paying extra.</p>
+                <p>As long as you're using my hosting, I offer unlimited free support on any aspect of using your website. Also included is up to 30 minutes developer time per month, allowing you to make changes or add features to your site without paying extra.</p>
             </div>
         </div>
-        <h3 class="bottomstrap">All our packages include one year's free hosting</h3>
+        <h3 class="bottomstrap">All my websites include one year's free hosting</h3>
     </div>
 </div>
 
@@ -137,31 +140,27 @@
         </div>
         <div class="contentbox">
             <h3 class="faquestion faq-closed">How much customisation do I get?</h3>
-            <p>Loads! We start with one of our basic templates, but we aim to create a unique site that reflects you and your practice perfectly. We're also professional coders, so there's nothing we can't create, and if you've seen something you like on another website we can do the same for you.</p>
+            <p>All websites are custom built just for you. I'm a professional coder so there's no design I can't create. I am to create a unique site that reflects you and your practice perfectly. If you've seen anything you like on another website I can code that for you too.</p>
             <h3 class="faquestion faq-closed">Will I Have to Pay for Hosting?</h3>
-            <p>All our packages come with one year's hosting completely free, after that our hosting service is £20/month or £200/year. If you want to move to a different host, we will provide you with everything you need to get your site set up on your new host.</p>
+            <p>All my websites come with one year's hosting completely free, after that my hosting service is £20/month or £200/year. If you want to move to a different host, I'll provide you with everything you need to get your site set up on your new host.</p>
             <h3 class="faquestion faq-closed">How Much Support do I Get?</h3>
-            <p>While you are using our hosting services we provide unlimited support on any aspect of your website. From setting up your email, updating your blog, integrating your social media, checking your user statistics or any other question, we're here to help.</p>
+            <p>While you are using my hosting services I provide unlimited support on any aspect of your website. From setting up your email, updating your blog, integrating your social media, checking your user statistics or any other question, I'm here to help.</p>
             <h3 class="faquestion faq-closed">Can I edit my own site?</h3>
-            <p>Yes you can.  We do not use drag-and-drop or visual editors but we will code into your site the fuctionality to edit any text you like.</p>
+            <p>Yes you can.  I don't use drag-and-drop or visual editors but I will code into your site the fuctionality to edit any text you like.</p>
             <h3 class="faquestion faq-closed">Will I be on Google?</h3>
-            <div>
-                <p>Yes you will.</p>
-                <p>With the pro package we will optimise your site for the SEO terms you specify, carry out a Technical SEO check and submit your site to Google for indexing.</p>
-                <p>With the Pro + Marketing package we go quite a bit further, first carrying out an SEO audit to identify niche opportunities in your area and build your website architecture to target these niches. We will then take a proactive approach to building links into your website, moving you up the search rankings for your chosen terms.</p>
-            </div>
+            <p>Yes, I will submit your website to Google for indexing. With the marketing package we'll carry out an SEO review to see what your potential patients are actually searching for, and optimise the site for those search terms.</p>
             <h3 class="faquestion faq-closed">Are there any hidden costs?</h3>
-            <p>The only things you might need to pay extra for are a professional photoshoot if you choose to have one, and any advanced custom coding. Stock photography and hosting is all included, and day-to-day updating and small edits of your website, support is all included. Once your website is built you would only need to pay extra to make substantial changes.</p>
-            <h3 class="faquestion faq-closed">What about photos?</h3>
-            <p>We need quality images to build you a quality website and will need photos of you and your practice. Remember these photos are the image your web visitors will have of you. Although it's not mandatory, we recommend you do a photoshoot at your practice with a professional photographer, and offer £50 off this with our Pro + Marketing package.</p>
+            <p>Nope. Stock photography, hosting and support are all included and you have 30 minutes developer time a month for any tweaks. Once your website is built you would only need to pay extra to make substantial design changes.</p>
+            <h3 class="faquestion faq-closed">Do I need photos?</h3>
+            <p>Yes. The images on your site are the images your patients will have of you and your practice. I highly recommend booking a photographer for half a day and doing a professional photoshoot, it will be worth it in the long run. Stock imagery is included.</p>
             <h3 class="faquestion faq-closed">Do I get a blog?</h3>
-            <p>Yes, unless you don't want one. Blogging is a great way to promote your practice, even if you only post once or twice a year, so we encourage everyone to have one. See our free guide on promoting your practice by blogging.</p>
+            <p>Yes, unless you don't want one. Blogging is a great way to promote your practice, even if you only post once or twice a year, so I encourage everyone to have one.</p>
             <h3 class="faquestion faq-closed">Can you set up my social media accounts?</h3>
-            <p>Yes, with any package we will set you up social media accounts on up to 3 platforms, with a uniform design and branding, and link them back to your website.</p>
+            <p>Yes, I will set you up social media accounts on up to 3 platforms, with a uniform design and branding, and link them to your website.</p>
             <h3 class="faquestion faq-closed">Can you do custom code and advanced features?</h3>
-            <p>Yes, we can code anything. If you've seen a feature on another website that you want we can do it. Please note custom coding may incur an additional charge, speak to us and let us know your ideas.</p>
+            <p>Yes, I can code anything. If you've seen a feature on another website that you want I can do it. Talk to me and we'll discuss your ideas.</p>
             <h3 class="faquestion faq-closed">What payment options are available?</h3>
-            <p>You can pay interest-free in 4 monthly installments (subject to a credit check). If you've graduated in a recognised osteopathy course within the last 2 years, you can spread the payments over 8 months instead of 4.</p>
+            <p>I take a 25% deposit before beginning your project. The balance is due on completion and can be spread over 2 equal monthly payments (subject to approval). If you're a recent graduate you can spread the payments over 4 months.</p>
         </div>
     </div>
 </div>

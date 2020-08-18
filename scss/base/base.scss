@@ -12,6 +12,21 @@
     background: url(images/background.jpg);
     background-size: cover;
     background-position: center;
+
+    @media (max-width: 767px) {
+        height: 150px;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 575px) {
+
+        h1 {
+            font-size: 2.6rem;
+        }
+    }
 }
 
 
@@ -114,22 +129,18 @@
     }
 }
 
+
+
 .free-web-review--dark {
     background-color: var(--highlight-color-1);
     padding: 100px 0;
 
+    @media (max-width: 575px) {
+        padding: 50px 0;
+    }
+
     .rb-container {
         position: relative;
-
-        /*
-        .freesticker {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 70px;
-            height: auto;
-        }
-        */
 
         h2 {
             text-align: center;
@@ -199,6 +210,19 @@
             }
         }
     }
+
+    @media (max-width: 991px) {
+        .rb-container {
+            .columnsbox {
+                .image {
+                    display: none;
+                }
+                .text {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 .mailing-list {
@@ -223,6 +247,20 @@
                 border-bottom: 2px solid var(--header-line);
                 width: 100%;
                 transform: translateY(-40%);
+            }
+
+            @media (max-width: 767px) {
+                display: block;
+
+                .line {
+                    display: none;
+                }
+
+                h2 {
+                    display: block;
+                    text-align: center;
+                    margin: 0;
+                }
             }
         }
 
@@ -258,11 +296,28 @@
             }
         }
     }
+
+    @media (max-width: 991px) {
+        .rb-container {
+            .innerbox {
+                .text {
+                    width: 100%;
+                }
+                .image {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 .mailing-list--home {
     .rb-container .headingbox .line {
         margin-left: 100px;
+
+        @media (max-width: 1023px) {
+            margin-left: 0;
+        }
     }
 }
 

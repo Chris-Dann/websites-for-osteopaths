@@ -27,7 +27,7 @@
                 </div>
                 <div class="line">
                     <i class="fas fa-envelope"></i>
-                    <p>hello@websitesfor<br>osteopaths.com</p>
+                    <p>chris@websitesfor<br>osteopaths.com</p>
                 </div>
                 <div class="line">
                     <i class="fas fa-map-pin"></i>

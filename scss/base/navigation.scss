@@ -119,6 +119,10 @@
                     &:hover {
                         color: var(--action-color-2);
                     }
+
+                    @media (max-width: 1200px) {
+                        padding: 0 15px;
+                    }
                 }
 
                 &.menu-item-has-children {
@@ -178,7 +182,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
     .rb-desktop-navigation__menu {
         display: none;
     }

@@ -1,21 +1,17 @@
 <?php get_header(); ?>
 <div class="rb-nav-pusher"></div>
 
-
 <div class="home-splash rb-section-container">
-
     <div class="contentbox">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/osteo-cutout2.png" alt="">
         <div class="innerbox">
-            <h1 class="horizontal">Transform your Practice</h1>
-            <h1 class="vertical">Transform<br>your<br>Practice</h1>
+            <h1>Transform your Practice</h1>
             <p class="button-wrap rb-center"><a href="#" class="button">Get your free web review</a></p>
         </div>
     </div>
-
     
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/IoO-logo.png" class="ioo" alt="">
 </div>
-
 
 <div class="rb-section-container home-featureboxes">
     <div class="featurebox featurebox-1">
@@ -24,7 +20,8 @@
         <div class="content">
             <div class="textbox">
                 <i class="fas fa-info-circle"></i>
-                <h2 class="title rbveq rbveq--featureboxes">Web Marketing<br>How-to Guides</h2>
+                <!--<img class="freesticker-int" src="<?php echo get_stylesheet_directory_uri(); ?>/images/free-sticker-1.png" alt="">-->
+                <h2 class="title">Web Marketing<br>How-to Guides</h2>
             </div>
             <p class="button-wrap"><a href="#" class="button">Read Now</a></p>
         </div>
@@ -35,7 +32,8 @@
         <div class="content">
             <div class="textbox">
                 <i class="fas fa-map-signs"></i>
-                <h2 class="title rbveq rbveq--featureboxes">Osteopath<br>Web Review</h2>
+                <!--<img class="freesticker-int" src="<?php echo get_stylesheet_directory_uri(); ?>/images/free-sticker-1.png" alt="">-->
+                <h2 class="title">Osteopath<br>Web Review</h2>
             </div>
             <p class="button-wrap"><a href="#" class="button">Order Now</a></p>
         </div>
@@ -45,13 +43,12 @@
         <div class="content">
             <div class="textbox">
                 <i class="fas fa-desktop"></i>
-                <h2 class="title rbveq rbveq--featureboxes">Websites and<br>Digital Marketing</h2>
+                <h2 class="title">Websites and<br>Digital Marketing</h2>
             </div>
             <p class="button-wrap"><a href="#" class="button">Learn More</a></p>
         </div>
     </div>
 </div>
-
 
 <div class="home-section-1 rb-section-container">
     <div class="rb-container">
@@ -92,6 +89,9 @@
                 <p class="blurb rb-center">I specialise in producing stunning websites for osteopaths.  I build websites with code rather than with website builders and offer unlimited support and a year's hosting with all sites.</p>
                 <p class="button-wrap rb-center"><a href="#" class="button">View example sites and pricing</a></p>
             </div>
+            <!--<div class="cta">
+                <p class="rb-center"><strong>Have a look at our beautiful example websites and see our pricing packages</strong></p>
+            </div>-->
         </div>
     </div>
 </div>
@@ -109,12 +109,12 @@
         </div>
         <div class="contentbox">
             <div class="guides">
-                <div class="guide guide1"></div>
-                <div class="guide guide2"></div>
-                <div class="guide guide3"></div>
-                <div class="guide guide4"></div>
-                <div class="guide guide5"></div>
-                <div class="guide guide6"></div>
+                <div class="guide guide1"><a href=""></a></div>
+                <div class="guide guide2"><a href=""></a></div>
+                <div class="guide guide3"><a href=""></a></div>
+                <div class="guide guide4"><a href=""></a></div>
+                <div class="guide guide5"><a href=""></a></div>
+                <div class="guide guide6"><a href=""></a></div>
             </div>
             <div class="text">
                 <h3>Ideal for DIY marketers and website designers</h3>
@@ -145,14 +145,14 @@
                 <div class="iconbox">
                     <div class="left">
                         <ul class="fa-ul">
-                            <li class="rbveq rbveq--dmicon rbveq-breakpoint--576px"><span class="fa-li"><i class="fab fa-google"></i></span>Search Engine Optimisation</li>
+                            <li><span class="fa-li"><i class="fab fa-google"></i></span>Search Engine Optimisation</li>
                             <li><span class="fa-li"><i class="fab fa-facebook"></i></span>Social Media</li>
                             <li><span class="fa-li"><i class="fas fa-rss"></i></span>Content Marketing</li>
                         </ul>
                     </div>
                     <div class="right">
                         <ul class="fa-ul">
-                            <li class="rbveq rbveq--dmicon"><span class="fa-li"><i class="far fa-newspaper"></i></span>Local Press Articles</li>
+                            <li><span class="fa-li"><i class="far fa-newspaper"></i></span>Local Press Articles</li>
                             <li><span class="fa-li"><i class="far fa-envelope"></i></span>Mailing List</li>
                             <li><span class="fa-li"><i class="fas fa-link"></i></span>Link Building</li>
                         </ul>

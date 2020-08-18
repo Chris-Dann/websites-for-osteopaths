@@ -16,6 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import "pages/common-modules.scss";
 @import "pages/page-websites.scss";
 @import "pages/page-digital-marketing.scss";
+@import "pages/page-about-me.scss";
 @import "pages/front-page.scss";
 @import "pages/free-resources.scss";
 @import "pages/contact.scss";

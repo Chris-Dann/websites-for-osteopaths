@@ -97,6 +97,11 @@ ul.graphic {
 p.button-wrap {
     margin: 0;
     line-height: 100%;
+
+    &.space-two-buttons {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 a {

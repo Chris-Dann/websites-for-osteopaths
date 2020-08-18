@@ -28,6 +28,17 @@
                 }
             }
         }
+
+        @media (max-width: 991px) {
+            .innerbox {
+                .text {
+                    width: 100%;
+                }
+                .image {
+                    display: none;
+                }
+            }
+        }
     }
 }
 
@@ -130,6 +141,32 @@
                 .button-wrap {
                     margin-top: 20px;
                     text-align: center;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .rb-container {
+            .templatesbox {
+
+                flex-direction: column;
+
+                .template-nav {
+                    display: none;
+                }
+
+                .templatebox {
+                    width: 100%;
+                    
+                    .innerbox {
+                        display: flex;
+                        margin-top: 40px;
+
+                        .image {
+                            padding: 0 20px 0 0;
+                        }
+                    }
                 }
             }
         }

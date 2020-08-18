@@ -34,7 +34,7 @@ function do_free_web_review() { ?>
         <div class="columnsbox">
             <div class="image"></div>
             <div class="text">
-                <p>Put yourself in the picture with our completely free web review. We will look at your website, search engine scores and local market, and give you advice on marketing your practice online, including free tips you can implement yourself. It's free and completely no-obligation, claim yours today!</p>
+                <p>Put yourself in the picture with a completely free web review. I will look at your website, search engine scores and local market, and give you advice on marketing your practice online, including free tips you can implement yourself. It's free and completely no-obligation so get yours today!</p>
                 <?php echo do_shortcode( ' [contact-form-7 id="8" title="Web Review Form"] ' ); ?>
             </div>
         </div>
@@ -51,7 +51,7 @@ function do_mailing_list() { ?>
             </div>
             <div class="innerbox">
                 <div class="text">
-                    <p>Join our mailing list and stay up to date with the latest marketing advice and tips for osteopaths straight to your inbox. It’s completely free and you can unsubscribe at any time.</p>
+                    <p>Join my mailing list and stay up to date with the latest marketing advice and tips for osteopaths straight to your inbox. It’s completely free and you can unsubscribe at any time.</p>
                     <div class="form">
                     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                         <div id="mc_embed_signup">
